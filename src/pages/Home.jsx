@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import axios from "axios";
 import Cards from "../components/Cards";
 import { matchListData } from "../assets/data/listdata";
-import backgroundImage from "../assets/bg-2.webp";
+import backgroundImage from "../assets/images/bg-2.webp";
 
 const Home = () => {
   const [data, setData] = useState(null);

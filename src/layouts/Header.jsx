@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 text-white fixed w-full z-10 top-0 py-1 px-3">
+    <header className="bg-gray-800 text-white fixed w-full z-10 mb-24 top-0 py-1 px-3">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="items-center flex-row ">
           <img src={logo} alt="Cricket App Logo" style={logoStyles} />
@@ -20,28 +20,14 @@ const Header = () => {
         </Link>
         <nav>
           <ul className="flex space-x-4">
+            <li></li>
+            <li></li>
             <li>
               <Link
-                to="/live-scores"
+                to="/schedules"
                 className="header-link hover:border-b-2 hover:border-green-600"
               >
-                Live Scores
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/series"
-                className="header-link hover:border-b-2 hover:border-green-600"
-              >
-                Series
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/teams"
-                className="header-link hover:border-b-2 hover:border-green-600"
-              >
-                Teams
+                Schedules
               </Link>
             </li>
           </ul>

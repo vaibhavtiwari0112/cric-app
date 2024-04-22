@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { scorecardData } from "../assets/data/scorecardData";
-import backgroundImage from "../assets/scorecard.webp";
+import backgroundImage from "../assets/images/scorecard.webp";
 
 const ScoreCard = () => {
   const { matchId } = useParams();
